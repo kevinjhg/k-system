@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ajax</title>
+	 <script src="k-system/js/jquery-3.5.1.js"></script>
+	 <script type="text/javascript"></script>
+	 <script src="k-system/js/showselect.js" type="text/javascript"></script>
+	 
+	  <link rel="stylesheet" type="text/css" href="k-system/css_icon/all.min.css">
+<link rel="stylesheet" type="text/css" href="k-system/bootstrap-4.0.0/bootstrap.min.css">
+</head>
+<body>
+
+<nav style="margin-top: 4%;width: 95%;margin-left: 5%;" class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<a href="#" class="logo"><img id="imglogo" src="../imagenes/logo2.jpg"></a>
+	         <p style="color :white;"><?php echo $_SESSION["nombre"];?></p>
+	
+	         <a href="home.php"><h2>LPT-STORE®</h2></a>
+	<a href="#" class="navbar-brand">app</a>
+	<ul class="navbar-nav ml-auto">
+		<form id="form" class="form-inline my-2 my-lg-0">
+			<input type="search" id="search" class="form-control mr-sm-2" placeholder="seacrh..." name="busqueda">
+			<ul id="response"></ul>
+			<button class="btn btn-success my-2 my-sm-0" >search</button>
+		</form>
+	</ul>
+</nav>
+
+<div class="container">
+	<div class="row">
+
+		
+	</div>
+</div>
+<script src="app.js"></script>
+
+
+</body>
+</html>

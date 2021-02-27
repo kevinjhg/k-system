@@ -1,0 +1,104 @@
+body { 
+    
+     
+    color: #444; 
+} 
+  
+a {color: #48577D; text-decoration: none;} 
+  
+
+  
+h1, h2 {margin-bottom: 15px} 
+  
+h1 {font-size: 18px;} 
+h2 {font-size: 16px} 
+  
+#container { 
+    width: 95%; 
+    margin: 15% auto; 
+    background-color: #eee; 
+    padding:15px; 
+    overflow: hidden; 
+} 
+  
+    #main { 
+        width: 75%; 
+        float: left; 
+    } 
+      
+        #main table { 
+            width: 100%; 
+        } 
+          
+            #main table th { 
+                padding: 15px; 
+                background-color: #48577D; 
+                color: #fff; 
+                text-align: left; 
+            } 
+              
+            #main table td { 
+                padding: 5px; 
+            } 
+              
+            #main table tr { 
+                background-color: #d3dcf2; 
+            } 
+      
+    #sidebar { 
+        width: 23%;
+        height: 50%; 
+        float: left; 
+         background-color: #eee;
+        color: black;
+        font-size: 20px;
+        margin-left: 2%;
+
+    }
+
+    #sidebar table { 
+            width: 100%; 
+        } 
+          
+            #sidebar  table th { 
+                padding: 15px; 
+                background-color: #48577D; 
+                color: #fff; 
+                text-align: left; 
+            } 
+              
+            #sidebar table table td { 
+                padding: 5px; 
+            } 
+              
+            #sidebar table tr { 
+                background-color: #d3dcf2; 
+            } 
+      
+
+    #car{
+        width: 20%;
+        
+        background: white;
+        border-radius: 100%;
+       
+        
+    }
+
+    #car:hover {
+        
+        
+        background: lightgreen;
+        border :none;
+        
+        
+    }
+    
+
+    #btn_car{
+
+        
+        
+        
+    }
+  
